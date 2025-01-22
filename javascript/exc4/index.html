@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de String</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome? ')
+        var slr = Number(window.prompt('Qual é o seu salario? '))
+        document.write(`${nome} seu nome tem ${nome.length} letras. <br/>`)
+        document.write(`Olhe seu nomezin em maiusculo tbm: ${nome.toUpperCase()} <br/>`)
+        document.write(`Agora em minusculo: ${nome.toLowerCase()}<br/>`)
+        document.write(`Seu salario é de: ${slr.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+
+        //nome.toUpperCase() faz a variavel ficar em MAIUSCULO 
+        //nome.toLowerCase() faz a variavel ficar em minusculo
+        //slr.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) mostra a moeda que sera usada
+    </script>
+</body>
+
+</html>

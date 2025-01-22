@@ -16,26 +16,20 @@
         h1 {
             color: yellow;
         }
-
-        p {
-            color: blue;
-        }
-
-        /* Comentario em CSS */
     </style>
 </head>
 
 <body>
     <h1>Hello Word!!</h1>
-    <p>Maldição tirada</p>
-
-    <!-- Comentario em HTML -->
     <script>
-        window.alert('Faaaaaaaala Zé') // mostra uma mensagem para o cliente
-        window.confirm('Ta gostando?') // abre uma caixa de pergunta para o cliente
-        window.prompt('Qual o seu nome?') // pede para que o cliente digite algo
+        var n1= Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        // pode-se usar somente "Number" para a conversação
+        var soma = n1 + n2
+        window.alert('A soma dos valores é: ' + soma)
 
-        // Comentario em JS
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 
