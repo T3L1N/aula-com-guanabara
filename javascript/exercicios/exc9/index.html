@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        input#pais {
+            font: normal Arial;
+            width: 200px;
+            height: 25px;
+        }
+
+        input#verificar {
+            font: normal Arial;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+    <input type="text"  id="pais" placeholder="Digite aqui a sua Nacionalidade">
+    <input type="button" id="verificar" value="Verificar" onclick="verificar()">
+
+    <script>
+        var pais = doument.querySeector('input#pais') 
+
+        if (pais == 'Brasil') {
+            pais.innerHTML = `Você é brasileiro`
+        } 
+        else {
+            pais.innerHTML = `You're foreign`
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <style>
+        h1 {
+            font: normal 20pt Arial;
+        }
+
+        button {
+            width: 150px;
+            height: 75px;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>Desafio das Mensagens</strong></h1>
+    <button id="bt1">Botão 1</button>
+    <button id="bt2">Botão 2</button>
+    <button id="bt3">Botão 3</button>
+
+    <script>
+        var bt1 = document.getElementById('bt1')
+        var bt2 = document.getElementById('bt2')
+        var bt3 = document.getElementById('bt3')
+
+        //Como eu Fiz
+        /* addEventListener('click', clicar)
+
+        function clicar() {
+            bt1.alert('Você clicou no ' + bt1)
+        }
+        */
+
+        //Forma correta
+        bt1.addEventListener('click', function() {
+            alert('Você clicou no botão 1!');
+        });
+
+        bt2.addEventListener('click', function() {
+            alert('Você clicou no botão 2!');
+        });
+
+        bt3.addEventListener('click', function() {
+            alert('Você clicou no botão 3!');
+        });
+
+        /*Eu estava atribuindo o evento ao click em qualquer botão que eu clicasse, mas o certo é eu adicionar o evento para cada botão, assim aparecerá a mensagem correta de qual botao eu cliquei*/
+    </script>
+</body>
+</html>
+
+<!-- CONCLUIDO mas com uma ajudinha do meu amg ChatGPT, ele me explicou a forma correta para eu solucionar o meu problema que estava sendo aparcer a msn correta -->
