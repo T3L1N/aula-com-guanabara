@@ -15,24 +15,34 @@
             font: normal Arial;
             height: 25px;
         }
+
+        div {
+            font: normal 16pt Arial;
+        }
     </style>
 </head>
 <body>
     <h1>Sistema de nacionalidade</h1>
-    <input type="text"  id="pais" placeholder="Digite aqui a sua Nacionalidade">
+    <input type="text"  id="pais" placeholder="Digite de qual país voce vem">
     <input type="button" id="verificar" value="Verificar" onclick="verificar()">
+    <div id="res"> Sua nacionalidade</div>
 
     <script>
-        var pais = doument.querySeector('input#pais') 
+        function verificar() {
 
-        if (pais == 'Brasil') {
-            pais.innerHTML = `Você é brasileiro`
-        } 
-        else {
-            pais.innerHTML = `You're foreign`
+            var pais = document.querySelector('input#pais') 
+            var res = document.querySelector('div#res')
+            var nac = pais.value
+            
+            if (nac == 'Brasil') {
+                res.innerHTML = `Você é brasileiro`
+            } 
+            else {
+                res.innerHTML = `You're foreign`
+            }
+
         }
 
-        
     </script>
 </body>
 </html>
