@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4</title>
+    <style>
+        h1 {
+            font: normal 20pt Arial;
+            background-color: limegreen;
+            width: 205px;
+        }
+
+        button {
+            background-color: limegreen;
+            font: normal 12pt Arial;
+            color: yellow;
+            height: 50px;
+            border-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio do Troco</h1>
+    <button id="bt">Bora pro desafio</button>
+    
+    <script>
+        var bt = document.querySelector('button#bt')
+
+        bt.addEventListener('click', function () {
+            var prod = prompt('Qual é o produto que deseja comprar?')
+            var preco = Number(prompt('Qual é o preço desse produto?'))
+            var pag = Number(prompt('Qual o valor que você dará para pagar?'))
+            var troco = pag - preco
+
+            alert(`Você comprou um(a) ${prod} no valor de R$${preco.toFixed(2).replace('.', ',')}\n
+            Seu pagamento foi de R$${pag.toFixed(2).replace('.', ',')}\n
+            Seu troco será de R$${troco.toFixed(2).replace('.', ',')}`)
+        })
+    </script>
+</body>
+</html>
+
+<!-- CONCLUIDO deu certo de primeira -->

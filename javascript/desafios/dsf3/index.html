@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <style>
+        h1 {
+            font: normal 20pt Arial;
+            background-color: limegreen;
+            width: 410px;
+        }
+
+        button {
+            background-color: limegreen;
+            font: normal 12pt Arial;
+            color: yellow;
+            height: 50px;
+            border-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio do Antecessor e Sucessor</h1>
+    <button id="bt">Bora pro desafio</button>
+
+    <script>
+        var bt = document.querySelector('button#bt')
+
+        bt.addEventListener('click', function () {
+            var num = Number.parseInt(prompt('Digite um numero inteiro'))
+            var ant = num - 1
+            var suc = num + 1
+            alert(`O número antecessor de ${num}, é ${ant}\nE o número sucessor de ${num}, é ${suc}`)
+        })
+    </script>
+</body>
+</html>
+
+<!-- CONCLUIDO de primeiraaa -->
