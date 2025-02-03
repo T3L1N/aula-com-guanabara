@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar">
+    <header>
+        Contador
+    </header>
+    <section>
+        <div>
+            <p>
+                Início: <input type="number" name="inc" id = inc><br>
+                Fim: <input type="number" name="fim" id="fim"><br>
+                Passos: <input type="number" name="passo" id="pas">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            Contando:
+        </div>
+    </section>
+    <footer>TELIN</footer>
+    <script src="script.js"></script>
+</body>
+</html>
