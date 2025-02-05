@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Analisador de numeros</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="carregar">
     <header>
-        Tabuada
+        Analisador de Numeros
     </header>
     <section>
         <div>
             <p>
-                Número: <input type="number" name="num" id="num">
-                <input type="button" value="Gerar Tabuada" onclick="contar()">
+                Número (entre 1 a 100): <input type="number" name="num" id="num">
+                <input type="button" value="Adicionar" id="ad" onclick="adicionar()">
             </p>
             
         </div>
-        <div id="res">
+        <div id="res1">
             Digite um número acima
+        </div>
+        <div>
+            <input type="button" value="Finalizar" id="fin" onclick="finalizar()">
+        </div>
+        <div id="res2">
+            Ao finalizar, o resultado aparecera aqui
         </div>
     </section>
     <footer>TELIN</footer>
