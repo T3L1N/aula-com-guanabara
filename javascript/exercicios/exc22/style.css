@@ -42,7 +42,7 @@ div#res1 {
     border: 3px solid rgb(50, 50, 218);
     border-radius: 10px;
     padding: 10px;
-    width: 200px;
+    width: 220px;
     background-color: lightblue;
     color: black;
 }
@@ -52,7 +52,7 @@ div#res2 {
     border: 3px solid rgb(50, 50, 218);
     border-radius: 10px;
     padding: 10px;
-    width: 200px;
+    width: 500px;
     background-color: lightblue;
     color: black;
 }
@@ -68,6 +68,11 @@ input#ad {
 }
 
 input#fin {
+    background-color: lightblue;
+    color: black;
+}
+
+input#limp {
     background-color: lightblue;
     color: black;
 }
