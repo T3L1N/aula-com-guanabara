@@ -3,7 +3,7 @@ function calcular() {
     var real = document.querySelector('input#real')
     var res = document.querySelector('div#res')
 
-    if (cot.value == 0 || real.value === 0 || cot.value.length == 0 || real.value.length == 0) {
+    if (cot.value == 0 || real.value == 0 || cot.value.length == 0 || real.value.length == 0) {
         alert('[ERRO] Digite valor corretamente')
     } else {
         var c = Number(cot.value)
