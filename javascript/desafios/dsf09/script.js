@@ -16,7 +16,7 @@ function calcular() {
         var vf = s + vr
 
         res.innerHTML = `<p>O salário de ${f} era ${s.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}</p>`
-        res.innerHTML += `<p>Com o aumento de ${r}%, o salário vai aumentar ${vr.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} no proximo mês.</p>`
+        es.innerHTML += `<p>Com o aumento de ${r}%, o salário vai aumentar ${vr.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} no proximo mês.</p>`
         res.innerHTML += `<p>Apartir do mês que vem ${f} vai passar a ganhar ${vf.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>`
     }
 }
