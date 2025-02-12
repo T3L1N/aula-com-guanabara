@@ -36,3 +36,18 @@ footer {
 div {
     padding: 20px;
 }
+
+input#prcan, input#prcat {
+    width: 85px;
+}
+
+input#vf {
+    height: 50px;
+    width: 100px;
+    font: normal 15pt Arial;
+}
+
+div#res {
+    border: solid 5px;
+    border-radius: 10px;
+}

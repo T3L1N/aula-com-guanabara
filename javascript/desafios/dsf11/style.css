@@ -36,3 +36,17 @@ footer {
 div {
     padding: 20px;
 }
+
+.bissexto {
+    background-color: lime;
+    color: green;
+    border: solid 2px;
+    border-color: lime;
+}
+
+.nao-bissexto {
+    background-color: rgb(236, 141, 141);
+    color: red;
+    border: solid 2px;
+    border-color: rgb(236, 141, 141);
+}
