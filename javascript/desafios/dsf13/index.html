@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 8</title>
+    <title>Desafio 13</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        Conversor R$ → US$ 
+       Média Final
     </header>
     <section>
         <div>
-
+            <h1>Digite seu nome e suas notas trimestrais</h1>
+            <p>Nome: <input type="text" name="nome" id="nm"></p>
+            <p>1º Trimestre: <input type="number" name="1t" id="t1"></p>
+            <p>2º Trimestre: <input type="number" name="2t" id="t2"></p>
+            <p>3º Trimestre: <input type="number" name="3t" id="t3"></p>
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
         </div>
         <div id="res">
-
+            A sua média final e situação irá aparecer aqui...
         </div>
     </section>
     <footer>TELIN</footer>
