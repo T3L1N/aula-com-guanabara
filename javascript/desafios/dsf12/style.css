@@ -45,6 +45,9 @@ input#vf {
     height: 50px;
     width: 100px;
     font: normal 15pt Arial;
+    border: solid 2px;
+    border-color: whitesmoke;
+    border-radius: 5px;
 }
 
 div#res {

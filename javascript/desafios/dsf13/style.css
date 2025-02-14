@@ -33,23 +33,41 @@ footer {
     padding-top: 20px;
 }
 
+input {
+    background-color: gray;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+}
+
 div {
     padding: 20px;
 }
 
 div#res {
+    background-color: gray;
+    color: black;
     border: solid 5px;
+    border-color: white;
     border-radius: 5px;
+    box-shadow: 5px 8px 15px white;
 }
 
 .aprovado{
     background-color: lime;
     color: green;
-    border: solid 2px;
+    border: solid 5px;
     border-color: lime;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px lime;
 }
 
 .reprovado {
-    background-color: rgb(255, 177, 177);
+    background-color: rgb(175, 7, 7);
     color: red;
+    border: solid 5px;
+    border-radius: 5px;
+    border-color: rgb(175, 7, 7); 
+    box-shadow: 5px 10px 20px red;
 }
