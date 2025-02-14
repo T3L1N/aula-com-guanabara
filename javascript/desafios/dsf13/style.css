@@ -36,3 +36,20 @@ footer {
 div {
     padding: 20px;
 }
+
+div#res {
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+.aprovado{
+    background-color: lime;
+    color: green;
+    border: solid 2px;
+    border-color: lime;
+}
+
+.reprovado {
+    background-color: rgb(255, 177, 177);
+    color: red;
+}
